@@ -5,7 +5,11 @@
 }
 
 body{
-    background-color: white;
+    background: radial-gradient(rgb(185, 183, 183)-30%, white 60%, rgb(185, 183, 183) );
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
     
     
     
@@ -36,6 +40,7 @@ label{
 .container1{
     display: flex;
     background-color: white;
+    opacity: 0;
     width: 100px;
     height: 30px;
 }
@@ -62,7 +67,7 @@ label{
     display: relative;
     width: 250px;
     height: 210px;
-    background-color: white;
+    background-color: white 40%;
     margin-left: 40px;
 }
 .contdatos h5{
@@ -75,7 +80,7 @@ label{
     position: flex;
     width: 210px;
     height: 210px;
-    background-color: white;
+    background-color: white 50%;
     margin-left: 100px;
 }
 
@@ -109,7 +114,7 @@ label{
 
 .container3{
     display: flex;
-    background-color: white;
+    background-color: white 50%;
     width: 100px;
     height: 30px;
     margin: auto
@@ -216,7 +221,7 @@ h3{
 .skilles{
     position: relative;
     width: 250px;
-    background-color: white;
+    background-color: white 50%;
     margin-left: 13%;
     padding: 01px;
 
@@ -251,7 +256,7 @@ h3{
 .skilles1{
     position: relative;
     width: 250px;
-    background-color: white;
+    background-color: white 50%;
     padding: 01px;
     margin-left: 120px;
 
@@ -286,7 +291,7 @@ h3{
 .skilles2{
     position: relative;
     width: 250px;
-    background-color: white;
+    background-color: white 50%;
     padding: 01px;
     margin-left: 120px;
 
