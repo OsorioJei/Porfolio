@@ -1,0 +1,370 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    
+    
+    
+
+}
+
+.container{
+    display: flex;
+    background-color: rgb(179, 175, 175);
+    width: 1100px;
+    height: 35px;
+    border: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+h2{
+    text-align: left;
+    margin: auto;
+    margin-inline-start: 35px;
+    font-family: cursive;
+}
+label{
+    margin: auto;
+    margin-inline-end: 5%;
+    margin-left: 1px;
+    
+}
+.container1{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.contenedor{
+    display: flex;
+    margin-left: 11%;
+}    
+
+.container2{
+    background-color: rgb(82, 135, 182);
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.container2 img{
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.contdatos{
+    display: relative;
+    width: 250px;
+    height: 210px;
+    background-color: white;
+    margin-left: 40px;
+}
+.contdatos h5{
+    display: flex;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.containerskill{
+    position: flex;
+    width: 210px;
+    height: 210px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.containerskill .skill{
+    margin: 20px 0;
+}
+
+.containerskill .skill p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerskill .skill .progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(180, 184, 185);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px ;
+}
+.containerskill .skill .progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: rgb(82, 135, 182);
+
+}
+
+.container3{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: auto
+}
+h3{
+    text-align: center;
+    
+}
+.container4{
+    display: flex;
+    background-color: rgb(179, 175, 175);
+    width: 1100px;
+    height: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container5{
+    background-color:  rgb(234, 236, 236);
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+.ontainerIproyects{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    
+
+}
+.warpper{
+    display: flex;
+    justify-content: center;
+    margin-left: 02%;
+    
+}
+.gallery{
+    display: flex;
+    inline-size: none;
+    margin: 30px;
+    
+}
+.gallery .image {
+    flex: 1;
+    object-fit: cover;
+    transition: 0.4s;
+    margin-right: 20px;
+    
+}
+.gallery img{
+    width: 100%;
+    aspect-ratio: 1 / 1.5;
+    object-fit: unset ;
+    border-radius: 10px;
+
+}
+.gallery img:hover{
+    object-fit: cover;
+    transform: scale(1.3);
+    border-radius: 20px;
+}
+
+.warpper1{
+    display: flex;
+    justify-content: center;
+    margin-left: 02%;
+    
+}
+.gallery1{
+    display: flex;
+    inline-size: none;
+    margin: 30px;
+}
+
+
+.gallery1 .imge{
+    flex: 1;
+    object-fit: cover;
+    transition: 0.4s;
+    margin-right: 20px;
+
+}
+
+.gallery1 img{
+    width: 100%;
+    aspect-ratio: 1 / 1.5;
+    object-fit: unset ;
+    border-radius: 10px;
+}
+.gallery1 img:hover{
+    object-fit: cover;
+    transform: scale(1.3);
+    border-radius: 20px;
+}
+
+.containerh{
+    display: flex;
+
+}
+
+.skilles{
+    position: relative;
+    width: 250px;
+    background-color: white;
+    margin-left: 13%;
+    padding: 01px;
+
+}
+.skilles .skill1{
+   margin: 20px 0;
+}
+
+.skilles .skill1 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skilles .skill1 .progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(180, 184, 185);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px ;
+}
+.skilles .skill1 .progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: rgb(82, 135, 182);
+}
+.skilles1{
+    position: relative;
+    width: 250px;
+    background-color: white;
+    padding: 01px;
+    margin-left: 120px;
+
+}
+.skilles1 .skill2{
+   margin: 20px 0;
+}
+
+.skilles1 .skill2 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skilles1 .skill2 .progress1{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(180, 184, 185);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px ;
+}
+.skilles1 .skill2 .progress1::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: rgb(82, 135, 182);
+}
+.skilles2{
+    position: relative;
+    width: 250px;
+    background-color: white;
+    padding: 01px;
+    margin-left: 120px;
+
+}
+.skilles2 .skill3{
+   margin: 20px 0;
+}
+
+.skilles2 .skill3 p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skilles2 .skill3 .progress1{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(180, 184, 185);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px ;
+}
+.skilles2 .skill3 .progress1::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: rgb(82, 135, 182);
+}
+form .warpperf{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+form .galleryf{
+    display: flex;
+    inline-size: none;
+    margin: 30px;
+    
+}
+form .galleryf .imge2{
+    margin-right: 30px;
+    object-fit: cover;
+
+}
+form .galleryf img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.containercontacto{
+    display: block;
+    margin-left: 38%;
+
+}
+.wassap{
+    display: flex;
+    justify-content: start;
+    margin: auto;
+}
+.wassap .imge3{
+    object-fit: cover;
+    margin-right: 100px;
+}
+.wassap .imge3 img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-inline-start: 45px;
+}
+.wassap .lable3{
+    text-align: center;
+}
+.texto{
+    margin: auto;
+}
