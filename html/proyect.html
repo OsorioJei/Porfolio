@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title style="font-family: cursive;">Mi Portafolio web</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css" />
-    <link rel="stylesheet" type="text/css" href="css/theme_style.css" />
-    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="materialize/js/materialize.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../materialize/css/materialize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style_proyect.css" />
+    <script type="text/javascript" src="../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="../script/script.js"></script>
 
 </head>
 
@@ -21,7 +21,7 @@
             <h4 href="#" class="brand-logo center">Portafolio</h4>
             <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="../index.html">Inicio</a></li>
 
                 <li><!-- Modal Trigger -->
                     <a class="waves-effect waves-light modal-trigger" href="#modal2">Acerca de mi</a>
@@ -32,7 +32,7 @@
                             <h4>Acerca de mi</h4>
                             <div class="container-modal">
                                 <div>
-                                    <img src="image/fotojei.jpg" alt="">
+                                    <img src="../image/fotojei.jpg" alt="">
                                 </div>
                                 <div style="margin-left: 20px;">
                                     <label for="">Nombre:</label>
@@ -83,7 +83,7 @@
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
                         </div>
                 </li>
-                <li><a href="html/proyect.html">Proyectos</a></li>
+                <li><a href="../html/proyect.html">Proyectos</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </div>
@@ -92,9 +92,9 @@
         <li>
             <div class="user-view">
                 <div class="background">
-                    <img src="image/fondo.jpg">
+                    <img src="../image/fondo.jpg">
                 </div>
-                <a href="#user"><img class="circle" src="image/fotojei.jpg"></a>
+                <a href="#user"><img class="circle" src="../image/fotojei.jpg"></a>
                 <a href="#name"><span class="white-text name">Jeisson Osorio</span></a>
                 <a href="#email"><span class="white-text email">jeiosorio@gmail.com</span></a>
             </div>
@@ -108,7 +108,7 @@
         <li><a class="subheader">Acerca de mi</a></li>
         <li><a class="waves-effect waves-light modal-trigger" href="#modal2">Ingresar</a></li>
         <li><a class="subheader">Proyectos</a></li>
-        <li><a class="waves-effect waves-light modal-trigger" href="html/proyect.html">Ingresar</a></li>
+        <li><a class="waves-effect waves-light modal-trigger" href="../html/proyect.html">Ingresar</a></li>
         <li><a class="subheader">Contacto</a></li>
         <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Ver</a></li>
     </ul>
@@ -116,139 +116,101 @@
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
     <hr>
-    <div id="titulo">
-        <h4>Conocimientos</h4>
+    <div style="width: 90%; margin: auto;">
+        <h4>Desarrollo/Web</h4>
+        <p style="text-align: justify; font-size: 20px;">Este proyecto fue desarrollado como una aplicación web dinámica
+            y funcional, actualmente en producción y alojada en un servidor de GoDaddy. El frontend fue implementado
+            utilizando Angular junto con JavaScript, brindando una interfaz moderna, rápida. Para el
+            backend, se utilizó Node.js, encargado de gestionar la lógica del servidor y establecer la conexión con la
+            base de datos MySQL, la cual almacena toda la información necesaria para el correcto funcionamiento del
+            sistema.
+
+            Durante el desarrollo, se priorizó la eficiencia, la seguridad de los datos y la experiencia del usuario.
+            Por motivos de privacidad, no fue posible incluir más imágenes detalladas del proyecto en este portafolio,
+            sin embargo, el sistema se encuentra en uso activo y representa una solución real desplegada en un entorno
+            de producción. <br> <a rel="stylesheet" href="https://psaecng.com">https://psaecng.com</a></p>
+    </div>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="../image/proyectCng/login.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Ingeso a la plataforma</h3>
+                    <h5 class="light black-text text-lighten-3">Con usuario y Constraseña.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="../image/proyectCng/home.png"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Incio de la plataforma</h3>
+                    <h5 class="light black-text text-lighten-3">Caracteristicas Iniciales.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="../image/proyectCng/listasU.png"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Lista de los estudiantes</h3>
+                    <h5 class="light black-text text-lighten-3">Se pueden generar Pdf.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="../image/proyectCng/atenciones.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Seccion de Atenciones</h3>
+                    <h5 class="light black-text text-lighten-3">Realizacion de atencion por las psicologas.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="../image/proyectCng/config.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Seccion de alimentacion de Datos</h3>
+                    <h5 class="light black-text text-lighten-3">Se ingresan los datos a utilizar.</h5>
+                </div>
+            </li>
+        </ul>
     </div>
     <br>
-    <div id="titulo1">
-        <h4>Conocimientos informatica</h4>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="image/conocimientos/angular.png"></a>
-            <a class="carousel-item" href="#two!"><img src="image/conocimientos/mysql.jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="image/conocimientos/SQL-Server.webp"></a>
-            <a class="carousel-item" href="#four!"><img src="image/conocimientos/java1.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="image/conocimientos/html.jpg"></a>
-            <a class="carousel-item" href="#six!"><img src="image/conocimientos/css.jpg"></a>
-        </div>
+    <div style="width: 90%; margin: auto;">
+        <h4>Plataforma CNG</h4>
+        <p style="text-align: justify; font-size: 20px;">La plataforma fue desarrollada para el Colegio Nuevo Gimnasio,
+            ubicado en Manizales, Caldas, como una herramienta tecnológica de apoyo a su modelo educativo. Esta
+            institución se caracteriza por ofrecer una formación integral desde preescolar hasta media, con un enfoque
+            inclusivo, socio-crítico y desarrollista, basado en valores y orientado al fortalecimiento de competencias
+            comunicativas y al liderazgo comprometido con el bien común.
+
+            En coherencia con esta visión educativa, la plataforma busca facilitar procesos institucionales y
+            académicos, optimizando la gestión de la información y promoviendo la participación activa de la comunidad
+            educativa. Su implementación responde a la necesidad de contar con una solución digital eficiente, adaptable
+            y segura, que respalde el desarrollo de proyectos formativos y fomente la sensibilización social, ambiental
+            y cultural. <br> <a rel="stylesheet" href="https://psaecng.com">https://psaecng.com</a></p>
     </div>
-    <div id="titulo2">
-        <h4>Programas informaticos</h4>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="image/programas info/visualstudiocode.webp"></a>
-            <a class="carousel-item" href="#two!"><img src="image/programas info/github.webp"></a>
-            <a class="carousel-item" href="#three!"><img src="image/programas info/netbeans.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="image/programas info/python.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="image/programas info/figma.jpg"></a>
-            <a class="carousel-item" href="#six!"><img src="image/programas info/wordpress.png"></a>
-        </div>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="../image/proyectCng/cngpp.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Colegio CNG</h3>
+                    <h5 class="light white-text text-lighten-3">Ubicacion Manizales-Caldas.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="../image/proyectCng/Directivos.png"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Directivos CNG</h3>
+                    <h5 class="light white-text text-lighten-3">Personal y estudiantes del Colegio.</h5>
+                </div>
+            </li>
+            <li>
+                <img style="background-size: contain;" src="../image/proyectCng/Momotus-aequatorialis.webp">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Ave emblema</h3>
+                    <h5 class="light black-text text-lighten-3">Momotus-aequatorialis</h5>
+                </div>
+            </li>
+        </ul>
     </div>
-    <hr>
-    <div id="titulo">
-        <h4>Habilidades</h4>
-    </div>
-    <div class="container">
 
-        <div class="containerskill">
-            <p>
-                <span>Html </span>80%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 80%">
-                </div>
-            </div>
-            <p>
-                <span>Css </span>80%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 80%">
-                </div>
-            </div>
-            <p>
-                <span>visual studio code </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>Angular </span>75%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 75%">
-                </div>
-            </div>
-            <p>
-                <span>Html </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>My Sql </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-        </div>
-        <div class="containerskill">
-            <p>
-                <span>Sql Server </span>60%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 60%">
-                </div>
-            </div>
-            <p>
-                <span>Figma </span>90%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 90%">
-                </div>
-            </div>
-            <p>
-                <span>github </span>80%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>netbeans </span>85%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 85%">
-                </div>
-            </div>
-            <p>
-                <span>Exel </span>65%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 65%">
-                </div>
-            </div>
-            <p>
-                <span>Python </span>55%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 55%">
-                </div>
-            </div>
-        </div>
-    </div>
     <hr>
     <div id="titulo">
         <h4 id="Contacto">Contactame</h4>
@@ -262,14 +224,14 @@
                 <p>5to semestre en ingenieria informatica</p>
                 <ul class="collapsible">
                     <li>
-                        <div class="collapsible-header"> <img src="image/logos/wasap.avif" alt=""><i
+                        <div class="collapsible-header"> <img src="../image/logos/wasap.avif" alt=""><i
                                 class="material-icons">star</i></div>
                         <div class="collapsible-body">
                             <h4>+57 3208181460 - +57 3205109105</h4>
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"> <img src="image/logos/correo.jpg" alt=""><i
+                        <div class="collapsible-header"> <img src="../image/logos/correo.jpg" alt=""><i
                                 class="material-icons">star</i></div>
                         <!-- <div class="collapsible-header"><i class="material-icons">place</i>Second</div> -->
                         <div class="collapsible-body">
@@ -285,9 +247,9 @@
         <br>
         <br>
         <footer>
-            <img src="image/logos/ciber bit.jpg" alt="">
-            <img src="image/programas info/github.webp" alt="">
-            <img src="image/logos/ciber bit.jpg" alt="">
+            <img src="../image/logos/ciber bit.jpg" alt="">
+            <img src="../image/programas info/github.webp" alt="">
+            <img src="../image/logos/ciber bit.jpg" alt="">
 
         </footer>
         <br>

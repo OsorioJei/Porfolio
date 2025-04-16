@@ -1,0 +1,97 @@
+ /* @font-face {
+  font-family: "bebas";
+  src: url("../fonts/BebasNeue.otf") format("otf");
+}  */
+
+ /* @font-face {
+	font-family: "grechen";
+	src: url("../fonts/GrechenFuemen-Regular.ttf");
+  }  */
+  @font-face {
+	font-family: "grechen";
+	src: url("../fonts/century-gothic-regular.ttf");
+  } 
+
+h1,h2,h3,h4{
+	color: #0f495d;
+	font-family: "grechen";
+}
+
+#menu{
+	margin-top: 5px;
+	margin-left: 49%;	
+}
+#info{
+margin-left: 46%;
+}
+.nav-wrapper{
+	background-color: #0587b3;
+}
+#titulo{
+	text-align: center;
+}
+
+#titulo1{
+	text-align: center;
+	margin-left: -50%
+}
+#titulo2{
+	text-align: center;
+	margin-left: 50%;
+	margin-top: -29%;
+
+}
+.carousel{
+	margin-top: -80px;
+}
+.carousel img{
+	border-radius: 10px;
+}
+.progress{
+	width: 100%;
+}
+.containerskill{
+	width: 100%;
+	margin-left: 100px;
+}
+
+.containerskill p{
+	margin-left: 20px;
+	font-family: "grechen";
+	
+}
+.container{
+	display: flex;
+	width: 100%;
+	margin-left: -20px;
+}
+.slider {
+	margin: auto;
+	width: 95%;
+	height: 20px;
+}
+.slider ul img{
+	background-size: contain;
+}
+
+
+.collapsible img{
+	width: 40px;
+	margin: auto;
+}
+footer{
+	margin-left: -300px;
+}
+footer img{
+	width: 50px;
+	margin-left: 300px;
+}
+.container-modal{
+	display: flex;
+	margin-left: 20px;
+}
+.container-modal img{
+	width: 100px;
+	border-radius: 10px;
+
+}
