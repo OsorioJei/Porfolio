@@ -8,84 +8,99 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css" />
     <link rel="stylesheet" type="text/css" href="css/theme_style.css" />
-    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="materialize/js/materialize.js"></script>
-    <script type="text/javascript" src="script/script.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
-    <br>
+    <header>
+        <h3>Portafolio</h3>
+    </header>
+    <!-- areas de navbar  -->
+
     <nav>
         <div class="nav-wrapper">
-            <h4 href="#" class="brand-logo center">Portafolio</h4>
             <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Inicio</a></li>
 
-                <li><!-- Modal Trigger -->
+                <!-- Modal Trigger -->
+                <li>
                     <a class="waves-effect waves-light modal-trigger" href="#modal2">Acerca de mi</a>
-
-                    <!-- Modal Structure -->
-                    <div id="modal2" class="modal modal-fixed-footer">
-                        <div class="modal-content">
-                            <h4>Acerca de mi</h4>
-                            <div class="container-modal">
-                                <div>
-                                    <img src="image/fotojei.jpg" alt="">
-                                </div>
-                                <div style="margin-left: 20px;">
-                                    <label for="">Nombre:</label>
-                                    <h6 style="color: black;">Jeisson osorio llanos</h6>
-                                </div>
-                                <div style="margin-left: 90px; margin-top: -60px;">
-
-                                    <p style="color: black;">Español 100% </p>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 100%">
-                                        </div>
-                                    </div>
-                                    <span style="color: black;">Ingles 40%</span>
-                                    <div class="progress">
-                                        <div class="determinate" style="width: 40%">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <h4 style="color: black; text-align: justify; font-size: 18px;">
-                                Soy estudiante de 5to semestre de Ingeniería Informática, con una fuerte motivación por
-                                la
-                                programación, el desarrollo de software y la computación en general. <br> Me apasiona
-                                resolver
-                                problemas mediante el uso de la tecnología y siempre estoy en busca de nuevos retos que
-                                me
-                                permitan seguir creciendo como desarrollador. Durante mi formación, he adquirido
-                                conocimientos
-                                sólidos en estructuras de datos, algoritmos, bases de datos, redes y buenas prácticas de
-                                desarrollo. <br><br>
-                                Uno de mis logros más destacados ha sido el desarrollo e implementación de un proyecto
-                                completo
-                                actualmente en producción, utilizando Angular para el frontend y Node.js para el
-                                backend, lo que
-                                me ha brindado experiencia real en el ciclo completo de desarrollo de aplicaciones web.
-                                <br>Soy una
-                                persona autodidacta, con interés en áreas como desarrollo web, inteligencia artificial,
-                                seguridad
-                                informática y arquitectura de software. Me esfuerzo por mantenerme actualizado con las
-                                tendencias
-                                tecnológicas, y disfruto trabajar en equipo, colaborar en soluciones eficientes y
-                                escribir código
-                                limpio y mantenible.
-                            </h4>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
-                        </div>
                 </li>
                 <li><a href="html/proyect.html">Proyectos</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
             </ul>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal2" class="modal modal-fixed-footer">
+            <h4 class="center">Acerca de mi</h4>
+            <div class="modal-content ">
+                <div class="container-modal">
+                    <div class="row">
+                        <div class="col s12 m2">
+                            <img src="image/fotojei.jpg" alt="">
+                        </div>
+                        <div class="col s12 m3">
+                            <label for="">Nombre:</label>
+                            <h6 style="color: black;">Jeisson osorio llanos
+                                <p style="font-size: 12px;">
+                                    <span>Full Stack Developer</span>
+                                </p>
+                            </h6>
+
+                        </div>
+                        <div class="containerskill col s12 m3">
+                            <p style="color: black;">
+                                <span>Español </span> 100%
+                            </p>
+                            <div class="progress">
+                                <div class="determinate" style="width: 100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="containerskill col s12 m3">
+                            <p style="color: black;">
+                                <span>Ingles </span>40%
+                            </p>
+                            <div class="progress">
+                                <div class="determinate" style="width: 40%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 style="color: black; text-align: justify; font-size: 18px;">
+                        Actualmente estudio Ingeniería Informática, con una fuerte motivación por la programación y el
+                        desarrollo de software.
+                        Creador de aplicaciones web atractivas y funcionales, con la habilidad de integración de bases
+                        de datos y metodologías
+                        agiles como Scrum. Durante mi formación, he adquirido conocimientos sólidos en algoritmos, bases
+                        de datos, redes y
+                        buenas prácticas de desarrollo. Uno de mis logros más destacados ha sido el desarrollo e
+                        implementación de un proyecto
+                        completo actualmente en producción, utilizando Angular para el frontend, Node.js para el
+                        backend, lo que me ha
+                        brindado experiencia real en el ciclo completo de desarrollo de aplicaciones web e integración a
+                        la nube. Soy una persona
+                        autodidacta, con interés en áreas como desarrollo web, inteligencia artificial, seguridad
+                        informática y arquitectura de
+                        software. Me esfuerzo por mantenerme actualizado con las tendencias tecnológicas, y disfruto
+                        trabajar en equipo,
+                        colaborar en soluciones eficientes
+                    </h4>
+                    <br>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+            </div>
         </div>
     </nav>
     <ul id="slide-out" class="sidenav">
@@ -95,202 +110,233 @@
                     <img src="image/fondo.jpg">
                 </div>
                 <a href="#user"><img class="circle" src="image/fotojei.jpg"></a>
-                <a href="#name"><span class="white-text name">Jeisson Osorio</span></a>
-                <a href="#email"><span class="white-text email">osoriojei@gmail.com</span></a>
+                <h5 class="white-text">Jeisson Osorio Llanos</h5>
+                <p href="#fullstack"><span class="white-text email">Full Stack Developer</span></p>
             </div>
         </li>
-        <li><a class="subheader">Contacto WhatsApp</a></li>
-        <li><a href="#!"><i class="material-icons">phone_forwarded</i>+57 3208181460</a></li>
+        <li>
+            <a class="subheader">Contactos</a>
+            <a href="https://wa.link/p3c403/"><i class="fa-brands fa-square-whatsapp"></i>+57 3208181460</a>
+            <a href="https:www.linkedin.com/in/jeisson-osorio-872842373/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i>linkedin.com/jeissonOsorio</a>
+            <a href="mailto:osoriojei@gmail.com" target="_blank"><i
+                    class="fa-solid fa-envelope-circle-check fa-spin"></i>osoriojei@gmail.com</a>
+        </li>
         <!-- <li><a href="#!">Contacto WhatsApp</a></li> -->
         <li>
-            <div class="divider"></div>
+            <a class="subheader">Modulos</a>
+            <a class="waves-effect waves-light modal-trigger" href="#modal2">Acerca de mi</a>
+            <a class="waves-effect waves-light modal-trigger" href="html/proyect.html">Proyectos</a>
+            <a class="waves-effect waves-light modal-trigger" href="#modal1">Contactame</a>
         </li>
-        <li><a class="subheader">Acerca de mi</a></li>
-        <li><a class="waves-effect waves-light modal-trigger" href="#modal2">Ingresar</a></li>
-        <li><a class="subheader">Proyectos</a></li>
-        <li><a class="waves-effect waves-light modal-trigger" href="html/proyect.html">Ingresar</a></li>
-        <li><a class="subheader">Contacto</a></li>
-        <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Ver</a></li>
     </ul>
     <div id="menu">
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-    <hr>
-    <div id="titulo">
-        <h4>Conocimientos</h4>
-    </div>
+    <!-- contenedro principal -->
+    <main>
+        <center>
+            <h4>Conocimientos</h4>
+        </center>
+        <!-- area de comocimientos  -->
+        <div data-aos="zoom-in" class=" row " id="carousel_img">
+            <section id="Seccion_Conocimientos">
+                <div class="col s12 m6 ">
+                    <h4>Aplicativos de Desarrollo</h4>
+                    <div class="carousel ">
+                        <a class="carousel-item" href="#one!"><img src="image/conocimientos/angular.png"></a>
+                        <a class="carousel-item" href="#two!"><img src="image/conocimientos/mysql.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="image/conocimientos/SQL-Server.webp"></a>
+                        <a class="carousel-item" href="#four!"><img src="image/conocimientos/java1.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="image/conocimientos/html.jpg"></a>
+                        <a class="carousel-item" href="#six!"><img src="image/conocimientos/css.jpg"></a>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <h4>IDES </h4>
+                    <div class="carousel ">
+                        <a class="carousel-item" href="#one!"><img src="image/programas info/visualstudiocode.webp"></a>
+                        <a class="carousel-item" href="#two!"><img src="image/programas info/github.webp"></a>
+                        <a class="carousel-item" href="#three!"><img src="image/programas info/netbeans.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="image/programas info/python.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="image/programas info/figma.jpg"></a>
+                        <a class="carousel-item" href="#six!"><img src="image/programas info/wordpress.png"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <center>
+            <h4>Habilidades</h4>
+        </center>
+        <!-- area de habilidades -->
+        <div data-aos="fade-up" class="row " id="Content_habilidades">
+            <section>
+                <div class="containerskill col s12 m4">
+                    <p>
+                        <span>Html </span>80%
+                    </p>
+                    <div class="progress">
+
+                        <div class="determinate" style="width: 80%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Css </span>80%
+                    </p>
+                    <div class="progress">
+
+                        <div class="determinate" style="width: 80%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>visual studio code </span>70%
+                    </p>
+                    <div class="progress">
+
+                        <div class="determinate" style="width: 70%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Angular </span>75%
+                    </p>
+                    <div class="progress">
+
+                        <div class="determinate" style="width: 75%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Html </span>70%
+                    </p>
+                    <div class="progress">
+
+                        <div class="determinate" style="width: 70%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>My Sql </span>70%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 70%">
+                        </div>
+                    </div>
+                </div>
+                <div class="containerskill col s12 m4">
+                    <p>
+                        <span>Sql Server </span>60%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 60%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Figma </span>90%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 90%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>github </span>80%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 70%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>netbeans </span>85%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 85%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Exel </span>65%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 65%">
+                        </div>
+                    </div>
+                    <p>
+                        <span>Python </span>55%
+                    </p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 55%">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4" id="img_progess">
+                    <div class="slider">
+                        <ul class="slides">
+                            <li>
+                                <img src="image/logos/habuld_transictio.gif"> <!-- random image -->
+                                <div class="caption center-align">
+
+                                    <h4 class="light grey-text text-lighten-3"> solución de problemas </h4>
+                                    <br>
+                                    <h4 class="light grey-text text-lighten-3"> pensamiento creativo</h4>
+                                    <!-- <h5 >Here's our small slogan.</h5> -->
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <aside >
+            <div data-aos="flip-left">
+                <h4 id="Contacto">Contactame</h4>
+                <!-- Modal Trigger -->
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">ingrese</a>
+            </div>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                    <h4>Jeisson Osorio Llanos</h4>
+                    <p>Full Stack Developer | ingenieria informatica</p>
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"> <img src="image/logos/wasap.avif" alt=""><i
+                                    class="material-icons">star</i></div>
+                            <div class="collapsible-body">
+                                <h4>+57 3208181460 - +57 3205109105</h4>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header"> <img src="image/logos/correo.jpg" alt=""><i
+                                    class="material-icons">star</i></div>
+                            <!-- <div class="collapsible-header"><i class="material-icons">place</i>Second</div> -->
+                            <div class="collapsible-body">
+                                <h4>osoriojei@gmail.com - jeiosorio-6@hotmail.com</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer" style="background-color: transparent;">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-small"
+                        style="margin-right: 22px;">Salir</a>
+                </div>
+                <br>
+        </aside>
+    </main>
     <br>
-    <div id="titulo1">
-        <h4>Conocimientos informatica</h4>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="image/conocimientos/angular.png"></a>
-            <a class="carousel-item" href="#two!"><img src="image/conocimientos/mysql.jpg"></a>
-            <a class="carousel-item" href="#three!"><img src="image/conocimientos/SQL-Server.webp"></a>
-            <a class="carousel-item" href="#four!"><img src="image/conocimientos/java1.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="image/conocimientos/html.jpg"></a>
-            <a class="carousel-item" href="#six!"><img src="image/conocimientos/css.jpg"></a>
-        </div>
-    </div>
-    <div id="titulo2">
-        <h4>Programas informaticos</h4>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="image/programas info/visualstudiocode.webp"></a>
-            <a class="carousel-item" href="#two!"><img src="image/programas info/github.webp"></a>
-            <a class="carousel-item" href="#three!"><img src="image/programas info/netbeans.jpg"></a>
-            <a class="carousel-item" href="#four!"><img src="image/programas info/python.jpg"></a>
-            <a class="carousel-item" href="#five!"><img src="image/programas info/figma.jpg"></a>
-            <a class="carousel-item" href="#six!"><img src="image/programas info/wordpress.png"></a>
-        </div>
-    </div>
-    <hr>
-    <div id="titulo">
-        <h4>Habilidades</h4>
-    </div>
-    <div class="container">
+    <footer>
+        <img src="image/logos/ciber bit.jpg" alt="">
+        <img src="image/programas info/github.webp" alt="">
+        <img src="image/logos/ciber bit.jpg" alt="">
+    </footer>
+    <br>
+    <!-- Campo para los scripts -->
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
 
-        <div class="containerskill">
-            <p>
-                <span>Html </span>80%
-            </p>
-            <div class="progress">
 
-                <div class="determinate" style="width: 80%">
-                </div>
-            </div>
-            <p>
-                <span>Css </span>80%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 80%">
-                </div>
-            </div>
-            <p>
-                <span>visual studio code </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>Angular </span>75%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 75%">
-                </div>
-            </div>
-            <p>
-                <span>Html </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>My Sql </span>70%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-        </div>
-        <div class="containerskill">
-            <p>
-                <span>Sql Server </span>60%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 60%">
-                </div>
-            </div>
-            <p>
-                <span>Figma </span>90%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 90%">
-                </div>
-            </div>
-            <p>
-                <span>github </span>80%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 70%">
-                </div>
-            </div>
-            <p>
-                <span>netbeans </span>85%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 85%">
-                </div>
-            </div>
-            <p>
-                <span>Exel </span>65%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 65%">
-                </div>
-            </div>
-            <p>
-                <span>Python </span>55%
-            </p>
-            <div class="progress">
-
-                <div class="determinate" style="width: 55%">
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div id="titulo">
-        <h4 id="Contacto">Contactame</h4>
-        <!-- Modal Trigger -->
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">ingrese</a>
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal bottom-sheet">
-            <div class="modal-content">
-                <h4>Jeisson Osorio Llanos</h4>
-                <p>5to semestre en ingenieria informatica</p>
-                <ul class="collapsible">
-                    <li>
-                        <div class="collapsible-header"> <img src="image/logos/wasap.avif" alt=""><i
-                                class="material-icons">star</i></div>
-                        <div class="collapsible-body">
-                            <h4>+57 3208181460 - +57 3205109105</h4>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"> <img src="image/logos/correo.jpg" alt=""><i
-                                class="material-icons">star</i></div>
-                        <!-- <div class="collapsible-header"><i class="material-icons">place</i>Second</div> -->
-                        <div class="collapsible-body">
-                            <h4>osoriojei@gmail.com - jeiosorio-6@hotmail.com</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
-            </div>
-        </div>
-        <br>
-        <br>
-        <footer>
-            <img src="image/logos/ciber bit.jpg" alt="">
-            <img src="image/programas info/github.webp" alt="">
-            <img src="image/logos/ciber bit.jpg" alt="">
-
-        </footer>
-        <br>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -1,93 +1,96 @@
- /* @font-face {
-  font-family: "bebas";
-  src: url("../fonts/BebasNeue.otf") format("otf");
-}  */
+  @font-face {
+  	font-family: "bebas";
+  	src: url("../fonts/BebasNeue.otf") format("otf");
+  }
 
- /* @font-face {
+  /* @font-face {
 	font-family: "grechen";
 	src: url("../fonts/GrechenFuemen-Regular.ttf");
   }  */
-  @font-face {
+  /* @font-face {
 	font-family: "grechen";
 	src: url("../fonts/century-gothic-regular.ttf");
-  } 
+  }  */
 
-h1,h2,h3,h4{
-	color: #0f495d;
-	font-family: "grechen";
-}
+  h1,
+  h2,
+  h3,
+  h4 {
+  	color: #0f495d;
+  	font-family: "bebas";
+  }
 
-#menu{
-	margin-top: 5px;
-	margin-left: 49%;	
-}
-#info{
-margin-left: 46%;
-}
-.nav-wrapper{
-	background-color: #0587b3;
-}
-#titulo{
-	text-align: center;
-}
+  header {
+  	display: flex;
+  	justify-content: center;
+  	justify-items: center;
+  	background-image: url(../image/fondo.jpg);
+  	padding: 32px;
+  }
 
-#titulo1{
-	text-align: center;
-	margin-left: -50%
-}
-#titulo2{
-	text-align: center;
-	margin-left: 50%;
-	margin-top: -29%;
 
-}
-.carousel{
-	margin-top: -80px;
-}
-.carousel img{
-	border-radius: 10px;
-}
-.progress{
-	width: 100%;
-}
-.containerskill{
-	width: 100%;
-	margin-left: 100px;
-}
+  nav li a {
+  	color: black;
+  	font-size: 18px;
 
-.containerskill p{
-	margin-left: 20px;
-	font-family: "grechen";
-	
-}
-.container{
-	display: flex;
-	width: 100%;
-	margin-left: -20px;
-}
-.slider {
-	margin: auto;
-	width: 95%;
-	height: 20px;
-}
 
-.collapsible img{
-	width: 40px;
-	margin: auto;
-}
-footer{
-	margin-left: -300px;
-}
-footer img{
-	width: 50px;
-	margin-left: 300px;
-}
-.container-modal{
-	display: flex;
-	margin-left: 20px;
-}
-.container-modal img{
-	width: 100px;
-	border-radius: 10px;
+  }
 
-}
+  .nav-wrapper {
+  	/* background-color: #0587b3; */
+  	background: linear-gradient(0deg, #f6f1f9 0%, #4c6af0 100%);
+
+  }
+
+  #menu {
+  	margin-top: 5px;
+  	margin-left: 49%;
+  }
+
+  #Proyectos {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  main section {
+  	width: 94%;
+  }
+
+  main aside {
+  	display: flex;
+  	justify-content: center;
+  	justify-items: center;
+  	text-align: center;
+  	padding: 30px;
+  	box-shadow: 3px 1px 10px 3px #565353;
+
+  }
+  main #Proyectos .slides img{
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+	opacity: 0.6;
+  }
+
+  main aside #modal1 {
+  	width: 80%;
+  	margin: auto;
+  	border-radius: 15px;
+  	background: linear-gradient(0deg, #a0a0a5 0%, #f6f1f9 100%);
+  }
+
+
+  main aside .collapsible img {
+  	width: 40px;
+  	margin: auto;
+  }
+
+  footer {
+  	display: flex;
+  	justify-content: center;
+  	gap: 40%;
+  }
+
+  footer img {
+  	width: 50px;
+  }
