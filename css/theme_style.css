@@ -144,7 +144,7 @@ main #Seccion_Conocimientos{
  footer {
  	display: flex;
  	justify-content: center;
- 	gap: 40%;
+ 	gap: 32%;
  }
 
  footer img {
