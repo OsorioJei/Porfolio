@@ -1,27 +1,62 @@
+  /* @font-face {
+  	font-family: "Bebas";
+  	src: url("../fonts/BebasNeue.otf") format("otf");
+  } */
   @font-face {
-  font-family: "bebas";
-  src: url("../fonts/BebasNeue.otf") format("otf");
-}  
+    font-family: "grechen";
+    src: url("../fonts/beachday.ttf");
+  }
+
+  @font-face {
+    font-family: "century";
+    src: url("../fonts/century-gothic-regular.ttf");
+  }
+
+
+
+
+  body {
+    background-color: #f8f8f8;
+  }
 
   /* @font-face {
 	font-family: "grechen";
 	src: url("../fonts/GrechenFuemen-Regular.ttf");
   }   */
- /* @font-face {
+  /* @font-face {
  	font-family: "grechen";
  	src: url("../fonts/century-gothic-regular.ttf");
  } */
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  a {
+    /* color:#816ca6;  */
+    font-family: "grechen";
+    /* background-color : -webkit-linear-gradient(0deg, #5769df 0%, #bc85e3 100%);  */
+  }
 
- h1,
- h2,
- h3,
- h4 {
- 	color: #0f495d;
- 	font-family: "bebas";
- }
+  #ColorsPalabras {
+    font-family: "grechen";
+    color: #816ca6;
+  }
 
- header {
+
+  p,
+  span {
+    font-family: "century";
+  }
+
+  nav a {
+    font-family: "grechen";
+  }
+
+  /* header {
  	display: flex;
  	justify-content: center;
  	justify-items: center;
@@ -29,124 +64,615 @@
 	padding: 32px;
 
 
- }
- /* nav{
-	position: fixed;
-
  } */
-
- nav li a {
-	color: black;
-	font-size: 18px;
- 	
- 	
- }
-
- .container-modal {
- 	display: flex;
- 	justify-content: center;
- }
-
- .container-modal img {
- 	width: 100px;
- 	border-radius: 10px;
- 	margin-right: 180px;
-
- }
-
- #menu {
- 	margin-top: 5px;
- 	margin-left: 49%;
- }
-
- .nav-wrapper {
- 	/* background-color: #0587b3; */
-	 	background: linear-gradient(0deg, #f6f1f9  0%,  #4c6af0 100%);
-
- }
- .sidenav .subheader i{
-	width: 100px;
- }
+  nav {
+    position: fixed;
+    background-color: transparent;
+    box-shadow: none;
 
 
- main #carousel_img {
- 	display: flex;
- 	justify-content: center;
- 	text-align: center;
- }
+  }
 
- /* globlas ancho etiqueta section dentro del main */
-main #Seccion_Conocimientos{
- 	box-shadow: 3px 1px 10px 3px #565353;
+  nav li a {
+    color: black;
+    font-size: 18px;
+
+
+  }
+
+  .nav-wrapper img {
+    width: 30%;
+    margin-top: 25px;
+  }
+
+  .container-modal {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-modal img {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 180px;
+
+  }
+
+  #menu {
+    position: fixed;
+    margin-left: 100px;
+
+
+  }
+
+  .nav-wrapper {
+    background-color: transparent;
+    /* background: linear-gradient(0deg, #f6f1f9  0%,  #4c6af0 100%);  */
+
+  }
+
+  #menu {
+    /* padding-top: 110px; */
+    z-index: 10000 !important;
+    /* Para que quede sobre el nav y demás elementos */
+
+  }
+
+  .sidenav .subheader i {
+    width: 100px;
+  }
+
+  .sidenav .user-view {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .sidenav img {
+    width: 40%;
+  }
+
+  main #sobremi {
+    text-align: center;
+  }
+
+  main #sobremi #btn {
+    padding: 50px;
+    margin-top: 20px;
+
+
+
+  }
+
+  body a {
+    position: relative;
+    z-index: 0;
+  }
+
+  main #Acercademi #btn {
+    padding: 50px;
+    margin-top: 35px;
+
+  }
+
+  main #sobremi p {
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+
+  }
+
+  main #Acercademi {
+    /* display: flex; */
+    text-align: center;
+    width: 70%;
+
+    margin: auto;
+    /* gap: 40px; */
+  }
+
+  /* main #Acercademi #parrafabout {
+  	width: 70%;
+  	text-align: center;
+  	margin-top: 40px;
+  	font-size: 17px;
+  } */
+
+  main #Acercademi #Cards {
+    /* background-color: white; */
+    padding: 20px;
+  }
+
+  main #Acercademi #Cards .card {
+    box-shadow: none;
+    font-size: 17px;
+
+  }
+
+  main #Acercademi #Cards .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  main #carousel_img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* globlas ancho etiqueta section dentro del main */
+  main #MySkill {
+    box-shadow: 7px 7px 2px 2px #c5c2c2;
+  }
+
+
+  main #MySkill {
+    width: 85%;
+    margin-top: 50px;
+  }
+
+
+
+  .progress {
+    width: 100%;
+  }
+
+  #MySkill1 {
+    display: flex;
+    gap: 4px;
+
+  }
+
+  main #MySkill1 ul {
+    gap: 15px;
+    box-shadow: none;
+  }
+
+  /* #Content_habilidades {
+  	width: 70%;
+  	margin: auto;
+  } */
+
+  main .containerskill .collection {
+    border: none;
+    border-radius: 10px;
+    width: 21%;
+  }
+
+  main section .containerskill {
+    /* display: flex;
+  	justify-content: center;
+  	justify-items: center; */
+    width: 70%;
+    margin: auto;
+    /* gap: 30px; */
+
+  }
+
+  .containerskill p {
+    font-family: "grechen";
+
+  }
+
+  main #Content_habilidades section #img_progess ul {
+    border-radius: 15px;
+    /* background-color: transparent; */
+
+  }
+
+
+  main section #container-project {
+    width: 67%;
+    margin: auto;
+  }
+
+  main section #FuteredProject p {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  main section .container-fluid {
+    /* display: flex;
+  	justify-content: center;
+  	justify-items: center; */
+    margin: auto;
+    margin-top: 25px;
+    gap: 30px;
+  }
+
+  main section #GetContac {
+    /* display: flex;
+  	justify-content: center; */
+    margin: auto;
+    padding: 30px;
+    width: 65%;
+  }
+
+  main aside {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 3px 1px 10px 3px #565353;
+    margin-top: 60px;
+    
+
+  }
+
+  main aside #modal1 {
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #a0a0a5 0%, #f6f1f9 100%);
+  }
+
+
+  main aside .collapsible img {
+    width: 40px;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 32%;
+  }
+
+  footer img {
+    width: 50px;
+  }
+
+  #section3 .collection li{
+    background-color: transparent;
+  }
+
+  #section5 #GetContac .collapsible-header{
+        background-color: transparent;
+
+  }
+
+  main #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5 {
+    margin-top: 100px;
+  }
+
+  #section5 #GetContac .collapsible-header{
+    font-family: 'century';
+  }
+
+
+  .card-stacked {
+    transition: transform 0.3s ease, box-shadown 0.3s ease;
+  }
+
+  .card-stacked:hover {
+    transform: translate(-15px);
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
+  }
+ 
+
+  /* .collection {
+  	transition: transform 0.3s ease, box-shadown 0.3s ease;
+  }
+
+  .collection:hover {
+  	transform: translate(20px);
+  	box-shadow: 8px 10px 20px rgb(0, 0, 0, 0.1);
+  } */
+
+  /* .card {
+  	transition: transform 0.6s ease, box-shadown 0.3s ease;
+  }
+
+  .card:hover {
+  	transform: translate(30px);
+  	box-shadow: 2px 10px 20px rgb(0, 0, 0, 0.1);
+  } */
+
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .card1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 3s ease infinite;
+    /* Nombre de la animación, duración, aceleración e infinito */
+  }
+
+  @keyframes zoom1 {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  #Card1 {
+    overflow: hidden;
+  }
+
+  #Card1 .card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #Card1:hover .card {
+    animation: zoom 1s ease;
+  }
+
+  .collection {
+    overflow: hidden;
+  }
+
+  .collection .collection-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .collection:hover .collection-item {
+    animation: zoom 1s ease;
+  }
+
+
+  /* 3. CSS: Define el estilo normal y el estilo al hacer scroll */
+  #miNavbar {
+    /*background-color: blue;  Color de fondo inicial */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+  }
+
+  #miNavbar.scrolled {
+    background-color: rgb(207, 204, 204);
+    /* Nuevo color de fondo al hacer scroll */
+    /* Puedes añadir otros estilos aquí, como un borde */
+    /* border-bottom: 1px solid #ccc; */
+  }
+
+  
+  /* Baja el z-index de los elementos fijos */
+  nav.navbar-fixed,
+  nav,
+  #btn,
+  .fixed-action-btn,
+  .nav-wrapper header,
+  footer {
+    z-index: 100 !important;
+  }
+
+
+  @keyframes vibrar {
+
+    0%,
+    100% {
+      transform: translateY(1);
+    }
+
+    25% {
+      transform: translateY(5px);
+    }
+
+    50% {
+      transform: translateY(-5px);
+    }
+
+    75% {
+      transform: translateY(5px);
+    }
+  }
+
+  #vibrar {
+    animation-name: vibrar;
+    animation-duration: 0.5s;
+    /* Duración de un segundo */
+    animation-iteration-count: infinite;
+    /* Se repite infinitamente */
+  }
+
+
+  /* cambio de tema ocsura/claro */
+  
+/* ===== MODO CLARO (por defecto) ===== */
+:root {
+  --fondo: #f5f5f5;
+  --texto: #222;
+  --fondo-contenedor: #ffffff;
+  --sombra: rgba(0, 0, 0, 0.1);
+  --color-acento: #0f0f0f;
+  --color-acento2: #7b6ba7;
 }
 
- main section {
- 	width: 94%;
- }
+/* ===== MODO OSCURO ===== */
+body.dark-mode {
+  --fondo: #0f0f0f;
+  --texto: #eaeaea;
+  --fondo-contenedor: #1a1a1a;
+  --sombra: rgba(255, 255, 255, 0.05);
+  --color-acento: #7b6ba7;
+   --color-acento2: #00aaff;
+}
 
- main #Content_habilidades {
- 	display: flex;
- 	justify-content: center;
- 	justify-items: center;
- }
+/* ===== ESTILOS GENERALES ===== */
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--fondo);
+  color: var(--texto);
+  transition: background-color 0.5s ease, color 0.5s ease;
+} */
+/* ===== FONDO Y GENERAL ===== */
 
- .progress {
- 	width: 100%;
- }
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  transition: background 0.6s ease, color 0.6s ease;
+  overflow-x: hidden;
+}
 
- .containerskill {
- 	width: 100%;
- 	margin-left: 100px;
- }
+/* Botón del tema */
+.theme-btn {
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+   background: linear-gradient(135deg, var(--color-acento), var(--color-acento2)); 
 
- .containerskill p {
- 	margin-left: 20px;
- 	font-family: "grechen";
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 10px var(--sombra);
+  transition: transform 0.4s ease, background 0.4s ease;
+  margin-top: 35px;
+  
+}
 
- }
+.theme-btn:hover {
+  transform: rotate(20deg) scale(1.1);
+}
 
- main #Content_habilidades section #img_progess ul {
- 	border-radius: 15px;
- 	background-color: transparent;
+/* Contenedor general */
 
- }
+/* #section5 {
+  padding: 2rem;
+  margin: 2rem;
+  background: var(--fondo-contenedor);
+  box-shadow: 0 2px 10px var(--sombra);
+  border-radius: 16px;
+  transition: background 0.5s ease, box-shadow 0.5s ease;
+} */
 
- main #Content_habilidades section #img_progess .slider img {
- 	opacity: 0.9;
- 	border-radius: 15px;
- 	margin-top: 15px;
-
- }
-
- main aside {
- 	display: flex;
- 	justify-content: center;
- 	justify-items: center;
- 	text-align: center;
- 	padding: 30px;
- 	box-shadow: 3px 1px 10px 3px #565353;
-
- }
-
- main aside #modal1 {
- 	width: 80%;
- 	margin: auto;
- 	border-radius: 15px;
- 	background: linear-gradient(0deg, #a0a0a5 0%, #f6f1f9 100%);
- }
+/* Tarjetas o cajas */
+.card {
+  background: var(--fondo-contenedor);
+  color: var(--texto);
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px var(--sombra);
+  transition: background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
 
 
- main aside .collapsible img {
- 	width: 40px;
- 	margin: auto;
- }
+/* Texto destacado */
+nav li a{
+  color: var(--color-acento);
+  transition: color 0.5s;
+}
 
- footer {
- 	display: flex;
- 	justify-content: center;
- 	gap: 32%;
- }
 
- footer img {
- 	width: 50px;
- }
+
+/* ===== CAPA DE DESTELLOS ===== */
+.sparkles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* No interfiere con clicks */
+  overflow: hidden;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+/* Se activa en modo oscuro */
+body.dark-mode .sparkles {
+  opacity: 1;
+}
+
+/* Partículas / destellos */
+.sparkles::before,
+.sparkles::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 2px);
+  background-size: 100px 100px;
+  animation: sparkleMove 60s linear infinite;
+}
+
+.sparkles::after {
+  background-image: radial-gradient(circle, rgba(0,170,255,0.12) 1px, transparent 2px);
+  animation-direction: reverse;
+}
+
+@keyframes sparkleMove {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-50px, -50px);
+  }
+}
+
+
+
+/* ===== CAPA DE ESTRELLAS ===== */
+.sky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+body.dark-mode .sky {
+  opacity: 1;
+}
+
+/* ===== ESTRELLA FUGAZ ===== */
+.shooting-star {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), transparent);
+  border-radius: 50%;
+  transform: rotate(45deg);
+  opacity: 0;
+  animation: shoot 1.5s linear forwards;
+}
+
+@keyframes shoot {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-400px, 400px) rotate(45deg);
+  }
+}
