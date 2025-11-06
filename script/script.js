@@ -80,7 +80,7 @@ function ObtenerDatos(e){
   let tel = document.getElementById('tel').value.trim();
   let Msm = document.getElementById('Msm').value.trim();
 
-  alert("Mensaje enviado Gracias Pronto me comunicare 👍")
+  alert("Mensaje enviado, Pronto me comunicare \n Gracias 👍")
   console.log('mensaje enviado Datos ingresados', nombre,tel,Msm)
 
   form.reset();

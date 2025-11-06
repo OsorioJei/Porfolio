@@ -313,6 +313,16 @@
     width: 40px;
     margin: auto;
   }
+  main #section5 #GetContac #redes{
+    padding: 20px;
+  }
+
+  main #section5 #GetContac #redes img{
+    width: 15%;
+    padding: 8px;
+    animation: zoom 3s ease infinite;
+
+  }
 
   footer {
     display: flex;
@@ -486,6 +496,8 @@
   }
 
   #vibrar {
+    display: flex;
+    justify-content: center;
     animation-name: vibrar;
     animation-duration: 0.5s;
     /* Duración de un segundo */
